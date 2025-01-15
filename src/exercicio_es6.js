@@ -12,8 +12,8 @@ const alunos = [
 //Retornando alunos com nota MAIOR que 6
 
 const aprovados = alunos.filter(aluno => aluno.nota >= 6);
-console.log(aprovados)
+console.log("Alunos aprovados", aprovados)
 
 //Retornando alunos com nota MENOR que 
 const reprovados = alunos.filter(aluno => aluno.nota < 6);
-console.log(reprovados)
+console.log("Alunos reprovados:", reprovados)

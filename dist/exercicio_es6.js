@@ -27,10 +27,10 @@ var alunos = [{
 var aprovados = alunos.filter(function (aluno) {
   return aluno.nota >= 6;
 });
-console.log(aprovados);
+console.log("Alunos aprovados", aprovados);
 
 //Retornando alunos com nota MENOR que 
 var reprovados = alunos.filter(function (aluno) {
   return aluno.nota < 6;
 });
-console.log(reprovados);
+console.log("Alunos reprovados:", reprovados);
